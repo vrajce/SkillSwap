@@ -13,34 +13,6 @@ A modern React TypeScript frontend for the SwapIT skill exchange platform, built
 - **Responsive Design** - Mobile-first approach
 - **Modern UI/UX** - Clean, accessible, and intuitive interface
 
-## 📁 Project Structure
-
-```
-src/
-├── components/          # Reusable UI components
-│   ├── Auth/           # Authentication components
-│   ├── Layout/         # Layout components
-│   └── UI/             # Basic UI components (Button, Input, Card, etc.)
-├── contexts/           # React Context providers
-│   ├── AuthContext.tsx # Authentication state management
-│   └── NotificationContext.tsx # Notification system
-├── pages/              # Page components
-│   ├── HomePage.tsx    # Landing page
-│   ├── LoginPage.tsx   # Login form
-│   ├── RegisterPage.tsx # Registration form
-│   ├── OnboardingPage.tsx # User onboarding
-│   ├── SwipePage.tsx   # Main swipe interface
-│   ├── ProfilePage.tsx # User profile
-│   ├── MatchesPage.tsx # View matches
-│   └── RequestsPage.tsx # Manage requests
-├── services/           # API services
-│   ├── api.ts          # Base API configuration
-│   └── authService.ts  # Authentication API calls
-├── types/              # TypeScript type definitions
-│   └── index.ts        # Main type definitions
-├── App.tsx             # Main app component with routing
-├── index.tsx           # App entry point
-└── index.css           # Global styles with Tailwind
 ```
 
 ## 🛠️ Tech Stack
@@ -84,8 +56,7 @@ src/
    yarn start
    ```
 
-4. **Open your browser:**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+
 
 ### Environment Variables
 
@@ -103,48 +74,7 @@ REACT_APP_API_URL=http://localhost:5000/api
 - `npm run lint` - Run ESLint
 - `npm run lint:fix` - Fix ESLint issues
 
-## 🎨 Design System
 
-### Colors
-
-The app uses a custom color palette defined in `tailwind.config.js`:
-
-- **Primary**: Blue gradient (#0ea5e9 to #0284c7)
-- **Secondary**: Purple gradient (#d946ef to #c026d3)
-- **Success**: Green (#22c55e)
-- **Warning**: Yellow (#f59e0b)
-- **Error**: Red (#ef4444)
-
-### Components
-
-#### Button
-```tsx
-<Button variant="primary" size="md" loading={false}>
-  Click me
-</Button>
-```
-
-#### Input
-```tsx
-<Input
-  label="Email"
-  type="email"
-  value={email}
-  onChange={setEmail}
-  placeholder="Enter your email"
-  required
-/>
-```
-
-#### Card
-```tsx
-<Card className="p-6" hover>
-  <h2>Card Title</h2>
-  <p>Card content</p>
-</Card>
-```
-
-## 🔧 Development
 
 ### Adding New Components
 
@@ -203,22 +133,3 @@ This creates an optimized production build in the `build/` directory.
 
 Make sure to set the correct `REACT_APP_API_URL` for your production environment.
 
-## 🤝 Contributing
-
-1. Follow the existing code style and patterns
-2. Use TypeScript for all new code
-3. Add proper error handling
-4. Test your changes
-5. Update documentation as needed
-
-## 📄 License
-
-This project is part of the SwapIT platform. See the main project README for license information.
-
-## 🆘 Support
-
-For support, please contact the development team:
-- Vraj Parmar: vrajparmar.087.ce@gmail.com
-- Dev Parikh: devparikh200479@gmail.com
-- FarhaanAli Vohra: farhaanali.work@gmail.com
-- Yash Vasani: vasaniyash784@gmail.com 
