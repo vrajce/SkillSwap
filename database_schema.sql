@@ -1,11 +1,4 @@
--- CHALLENGES
-CREATE TABLE challenges (
-  id SERIAL PRIMARY KEY,
-  name VARCHAR(100) UNIQUE NOT NULL,
-  description TEXT,
-  start_date DATE,
-  end_date DATE
-);
+
 
 -- USER_CHALLENGE (tracks user progress in challenges)
 CREATE TABLE user_challenge (
@@ -101,6 +94,15 @@ CREATE TABLE feedback (
   rating INT,
   comment TEXT,
   created_at TIMESTAMP DEFAULT NOW()
+);
+
+-- CHALLENGES
+CREATE TABLE challenges (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100) UNIQUE NOT NULL,
+  description TEXT,
+  start_date DATE,
+  end_date DATE
 );
 
 -- NOTIFICATIONS
