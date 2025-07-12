@@ -13,7 +13,7 @@ SwapIT is a modern skill exchange platform that connects people who want to teac
 
 1. **Clone and install dependencies**
    ```bash
-   cd SWAPIT_demo
+   cd SkillSwap
    npm install
    ```
 
