@@ -6,7 +6,7 @@ No resumes. No long forms. Just real people sharing real skills.
 
 ---
 
-## 🚀 Why SwapIT?
+## 🚀 Why SwapIT though?
 
 In a world full of courses and certifications, *SwapIT brings back human connection* to learning.
 
