@@ -49,5 +49,13 @@ In a world full of courses and certifications, *SwapIT brings back human connect
 - Ban or flag inappropriate content
 - Export activity and feedback data
 - Push platform-wide updates or announcements
+---
+## 👥 Meet the Team
+| Name            | Role                     | Email                                                                 |
+|-----------------|--------------------------|-----------------------------------------------------------------------|
+| **Vraj Parmar** | Full-Stack Developer | vrajparmar.087.ce@gmail.com |
+| **Dev Parikh** | Full-Stack Developer | devparikh200479@gmail.com|
+| **FarhaanAli Vohra** | Full-Stack Developer | farhaanali.work@gmail.com |
+| **Yash Vasani** | Full-Stack Developer | vasaniyash784@gmail.com |
 
 ---
