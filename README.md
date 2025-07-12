@@ -2,7 +2,7 @@
 
 *SwapIT* is a swipe-based, community-driven platform where people connect to *exchange skills. Whether you're a web developer wanting to learn photography, or a musician eager to teach guitar and pick up graphic design — **SwapIT makes it simple, personal, and fun.*
 
-No resumes. No long forms. Just real people sharing real skills.
+No resumes. No long forms at all. Just real people sharing real skills :)
 
 ---
 
